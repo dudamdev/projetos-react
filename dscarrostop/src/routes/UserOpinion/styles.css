@@ -1,0 +1,14 @@
+.dsct-user-opinion-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+  width: 100%;
+  background-color: var(--bg-color-secondary);
+  padding: 25px 20px;
+}
+
+.dsct-depoiments-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}

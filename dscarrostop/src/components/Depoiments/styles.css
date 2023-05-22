@@ -1,0 +1,7 @@
+.dsct-depoiments {
+  border: 1px solid var(--bg-color-primary);
+  background-color: var(--bg-color-tertiary);
+  color: var(--bg-color-primary);
+  border-radius: 12px;
+  padding: 25px 20px;
+}

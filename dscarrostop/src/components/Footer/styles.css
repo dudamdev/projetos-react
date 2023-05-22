@@ -1,0 +1,21 @@
+footer {
+  background-color: var(--bg-color-primary);
+  color: var(--font-color-secondary);
+  font-size: 16px;
+  padding: 32px 48px;
+}
+
+.dsct-footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (min-width: 1200px) {
+  .dsct-footer-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

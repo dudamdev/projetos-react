@@ -1,0 +1,7 @@
+.dsct-vist-us-section {
+  padding: 0 20px 25px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 25px;
+}
