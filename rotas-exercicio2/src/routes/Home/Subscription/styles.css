@@ -1,0 +1,5 @@
+.subscription h1 {
+  text-align: center;
+  color: var(--font-color-tertiary);
+  font-size: 32px;
+}

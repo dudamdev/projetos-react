@@ -1,15 +1,15 @@
 import Button from "../../../components/Button";
 import InfoArea from "../../../components/InfoArea";
 
-export default function Promotion() {
+export default function HomeBody() {
     return (
         <main>
             <section>
 
-                <InfoArea info="Página de promoção" />
+                <InfoArea info="Página inicial" />
 
                 <div className="ms-container">
-                    <Button path="/subscription" text="Quero participar" />
+                    <Button path="/promotion" text="Ver promoção" />
                 </div>
             </section>
         </main>
