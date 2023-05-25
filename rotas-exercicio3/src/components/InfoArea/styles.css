@@ -1,0 +1,11 @@
+.info-area {
+  background-color: var(--bg-color-tertiary);
+  border-radius: 6px;
+  padding: 20px;
+  height: 200px;
+}
+
+.info-area h2 {
+  font-size: 20px;
+  color: var(--font-color-secondary);
+}

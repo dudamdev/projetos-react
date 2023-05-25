@@ -1,0 +1,34 @@
+header {
+  background-color: var(--bg-color-primary);
+  padding: 0 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav {
+  display: flex;
+  column-gap: 20px;
+  color: var(--font-color-primary);
+  font-size: 14px;
+}
+
+header h1 {
+  color: var(--font-color-primary);
+  font-size: 20px;
+}
+
+.nav-link-bold {
+  font-weight: 700;
+}
+
+.nav-link-normal {
+  font-weight: 400;
+}

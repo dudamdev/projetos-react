@@ -1,0 +1,30 @@
+header {
+  background-color: var(--bg-color-primary);
+  padding: 0 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.header-container nav {
+  display: flex;
+  column-gap: 20px;
+  color: var(--font-color-secondary);
+  font-size: 14px;
+}
+
+.nav-link-bold {
+  font-weight: 700;
+}
+
+.nav-link-normal {
+  font-weight: 400;
+}

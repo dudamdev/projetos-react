@@ -1,0 +1,20 @@
+.prod-nav-container {
+  background-color: var(--bg-color-secondary);
+  height: 60px;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.prod-nav-container nav {
+  display: flex;
+  column-gap: 20px;
+}
+
+.product-nav-bold {
+  font-weight: 700;
+}
+
+.product-nav-normal {
+  font-weight: 400;
+}
