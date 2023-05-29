@@ -55,7 +55,7 @@ export default function FindProfileCard() {
             </div>
             <div >
                 {userGH ? (
-                    <div>
+                    <div className="profile-card">
                         <ProfileCard userGH={userGH} />
                     </div>
                 ) : (
