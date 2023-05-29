@@ -1,0 +1,14 @@
+.home-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.home-section h2 {
+  font-size: 48px;
+}
+
+.home-section h3 {
+  font-size: 24px;
+  color: var(--font-color-secondary);
+}

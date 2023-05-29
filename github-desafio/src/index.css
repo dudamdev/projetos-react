@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+:root {
+  --bg-color-primary: #1890ff;
+  --bg-color-secondary: #e6f7ff;
+  --bg-color-tertiary: #f5f5f5;
+  --bg-color-quaternary: #ffffff;
+
+  --border-color: #d9d9d9;
+
+  --font-color-primary: #000000;
+  --font-color-secondary: #7e7e7e;
+  --font-color-tertiary: #ffffff;
+  --font-color-placeholder: #bfbfbf;
+  --font-color-highlight: #1890ff;
+  --font-color-link: #0029ff;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.gh-container {
+  width: 100%;
+  max-width: 1251px;
+  margin: 0 auto;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+  color: unset;
+  text-decoration: none;
+}
